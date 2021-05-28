@@ -91,10 +91,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -147,8 +147,8 @@ static Geometry geometry = CellGeometry;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int cols = 120;
+static unsigned int rows = 32;
 
 /*
  * Default width and height (including borders!)
